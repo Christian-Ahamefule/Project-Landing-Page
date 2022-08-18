@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+}
+
+/* the Header designs */
+#background-one {
+    background-color: #1f2937;
+}
+
+.header, .below-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding-bottom: 5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.below-header {
+    gap:4rem;
+}
+
+.text-bh {
+    color: whitesmoke;
+}
+.text-bh1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.text-bh2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-image img {
+    border-radius: 8px;
+}
+
+button{
+    padding: 10px 30px;
+    color:  #f9faf8;
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 4px;
+}
+
+/* Second Section Design */
