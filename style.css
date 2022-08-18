@@ -67,6 +67,7 @@ a {
 button{
     padding: 10px 30px;
     color:  #f9faf8;
+    font-weight: bold;
     margin-top: 10px;
     background-color: #3882f6;
     border: 0;
@@ -93,7 +94,7 @@ button{
     margin-right: 8rem;
     gap: 2rem;
     justify-content: center;
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
 }
 
 .text-cont{
@@ -107,4 +108,32 @@ button{
     height: 200px;
     border: 4px #3882f6;
     border-radius: 8px;
+}
+
+/* Section 3 */
+#background-three {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #dadde2;
+}
+
+.text-sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.text1-sec3, .text2-sec3 {
+    width: 800px;
+    font-size: 34px;
+}
+
+.text1-sec3 {
+    color: #1f2937;
+    font-style: italic;
+}
+.text2-sec3 {
+    text-align: right;
 }
