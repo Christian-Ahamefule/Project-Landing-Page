@@ -4,7 +4,6 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
-    overflow: hidden;
 }
 
 /* the Header designs */
@@ -12,12 +11,16 @@ body {
     background-color: #1f2937;
 }
 
+.header {
+    position: relative;
+}
+
 .header, .below-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 10rem;
-    margin-left: 10rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
     padding-bottom: 5rem;
 }
 
@@ -30,6 +33,7 @@ ul {
 a {
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .logo {
@@ -70,3 +74,37 @@ button{
 }
 
 /* Second Section Design */
+
+#background-two {
+    background-color: white;
+}
+
+.text-sec1 {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+    margin: 3rem;
+}
+
+.container {
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+
+.text-cont{
+    font-size: 18px;
+    text-align: center;
+    max-width: 200px;
+    border: 4px #3882f6;
+}
+.c-img img{
+    width: 200px;
+    height: 200px;
+    border: 4px #3882f6;
+    border-radius: 8px;
+}
