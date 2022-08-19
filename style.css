@@ -15,25 +15,44 @@ body {
     position: relative;
 }
 
-.header, .below-header {
+.header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    padding-bottom: 3rem;
+}
+.below-header{
+    display: flex;
     justify-content: space-between;
     margin-right: 8rem;
     margin-left: 8rem;
     padding-bottom: 5rem;
 }
 
-ul {
+.header-image{
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.header-list {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
+}
+
+.fa-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 a {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .logo {
@@ -41,6 +60,7 @@ a {
     font-weight: bold;
     color: whitesmoke;
     text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .below-header {
@@ -49,15 +69,14 @@ a {
 
 .text-bh {
     color: whitesmoke;
+    width: 700px;
+    max-height: 300px;
+
 }
 .text-bh1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-}
-.text-bh2{
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 .header-image img {
