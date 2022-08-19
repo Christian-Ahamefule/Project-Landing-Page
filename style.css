@@ -64,11 +64,11 @@ a {
     border-radius: 8px;
 }
 
-button{
+.top-button{
     padding: 10px 30px;
     color:  #f9faf8;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #3882f6;
     border: 0;
     border-radius: 4px;
@@ -77,7 +77,7 @@ button{
 /* Second Section Design */
 
 #background-two {
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .text-sec1 {
@@ -85,7 +85,7 @@ button{
     font-weight: bolder;
     font-size: 32px;
     text-align: center;
-    margin: 3rem;
+    padding: 3rem;
 }
 
 .container {
@@ -136,4 +136,52 @@ button{
 }
 .text2-sec3 {
     text-align: right;
+}
+
+/* Section 4 */
+#background-four {
+    background-color: whitesmoke;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-4 {
+    display: flex;
+    color: white;
+    background-color: #3e77d3;
+    padding: 2rem;
+    min-width: 700px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.text1-cont4 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text2-cont4 {
+    font-size: large;
+}
+
+.sec4-button {
+    color: white;
+    background-color: #3882f6;
+    border: 2px  solid white;
+    padding: 0rem 3rem;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    display: flex;
+    position: absolute;
+    width: 100%;
 }
