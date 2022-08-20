@@ -9,6 +9,8 @@ body {
 /* the Header designs */
 #background-one {
     background-color: #1f2937;
+    /*display: flex;
+    flex-direction: column;*/
 }
 
 .header {
@@ -101,7 +103,6 @@ a:hover{
 .top-button:focus{
     background-color: blue;
 }
-
 .top-button:hover{
     transform: scale(1.2);
 }
@@ -162,21 +163,24 @@ a:hover{
 /* Section 3 */
 #background-three {
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
     background-color: #dadde2;
 }
 
 .text-sec3 {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
-.text1-sec3, .text2-sec3 {
-    width: 800px;
-    font-size: 34px;
+.text1-sec3 {
+    width: 250px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
 }
 
 .text1-sec3 {
@@ -185,6 +189,16 @@ a:hover{
 }
 .text2-sec3 {
     text-align: right;
+}
+.checked {
+    color: gold;
+}
+
+.stars{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    padding-top: 7px;
 }
 
 /* Section 4 */
