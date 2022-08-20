@@ -203,40 +203,53 @@ a:hover{
 
 /* Section 4 */
 #background-four {
-    background-color: whitesmoke;
+    color: white;
+    background-color: #2a4063;
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
-    justify-content: center;
-}
-
-.cont-4 {
-    display: flex;
-    color: white;
-    background-color: #3e77d3;
-    padding: 2rem;
-    min-width: 700px;
-    border-radius: 5px;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
 }
 
 .text1-cont4 {
-    font-size: larger;
-    font-weight: bold;
+    font-size: 18px;
 }
 
 .text2-cont4 {
     font-size: large;
 }
 
+.text3-cont4 {
+    font-size: 18px;
+}
+
 .sec4-button {
     color: white;
-    background-color: #3882f6;
-    border: 2px  solid white;
-    padding: 0rem 3rem;
-    border-radius: 10px;
-    font-size: large;
+    background-color: red;
+    border: 2px  solid red;
+    padding: 15px 100px;
+    border-radius: 4px;
+    font-size: 15px;
     text-align: center;
+    transition: transform .3s ease-in-out;
+    font-weight: bold;
+}
+.sec4-button:hover {
+    background-color: blue;
+    border-color: blue;
+}
+.sec4-button:focus {
+    background-color: blue;
+    border-color: blue;
+}
+
+.mini-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 
 .footer {
